@@ -1,0 +1,50 @@
+name: my_map
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-417.2.beta <4.0.0'
+
+dependencies:
+  flutter_osm_plugin: ^0.53.4
+  workmanager: ^0.5.1
+  shared_preferences: ^2.1.0
+  path_provider: ^2.0.14
+  flutter_map: ^3.1.0
+  fluttertoast: ^8.2.1
+  http: ^0.13.5
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Icons
+      fonts:
+        - asset: assets/fonts/Icons.ttf
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/Bold.TTF
+    - family: Nazanin
+      fonts:
+        - asset: assets/fonts/BNazanin.ttf
+
+
+  uses-material-design: true
+
